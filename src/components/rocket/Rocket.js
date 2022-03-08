@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import './rocket.css';
-import Button from 'react-bootstrap/Button';
-import { reserveRocket } from '../../redux/rockets/rockets';
+import { Button, Badge } from 'react-bootstrap/';
+import { reserveRocket, cancelReservation } from '../../redux/rockets/rockets';
 
 const Rocket = ({
-  id, rocketName, description, image,
+  id, rocketName, description, image, reserved,
 }) => {
   const dispatch = useDispatch();
   return (
@@ -16,17 +16,29 @@ const Rocket = ({
       </div>
       <div className="rocket-detail">
         <h5>{rocketName}</h5>
-        <p>{description}</p>
-        <Button
-          onClick={() => dispatch(reserveRocket(id))}
-          variant="primary"
-          size="sm"
-        >
-          Reserve Rocket
-        </Button>
-        {/* <Button variant="outline-secondary" size="sm">
-        Cancel Reservation
-      </Button> */}
+
+        <p>
+          {reserved && <Badge bg="info">Reserved</Badge>}
+          {description}
+        </p>
+
+        {reserved ? (
+          <Button
+            onClick={() => dispatch(cancelReservation(id))}
+            variant="outline-secondary"
+            size="sm"
+          >
+            Cancel Reservation
+          </Button>
+        ) : (
+          <Button
+            onClick={() => dispatch(reserveRocket(id))}
+            variant="primary"
+            size="sm"
+          >
+            Reserve Rocket
+          </Button>
+        )}
       </div>
     </div>
   );
@@ -37,6 +49,7 @@ Rocket.propTypes = {
   description: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   id: PropTypes.number.isRequired,
+  reserved: PropTypes.bool.isRequired,
 };
 
 export default Rocket;

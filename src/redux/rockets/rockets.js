@@ -26,7 +26,8 @@ export const fetchRocketsDispatch = () => async (dispatch) => {
     id: rocket.id,
     rocketName: rocket.rocket_name,
     description: rocket.description,
-    image: rocket.flickr_images,
+    image: rocket.flickr_images[0],
+    reserved: rocket.active,
   }));
   dispatch(getRockets(filtered));
 };

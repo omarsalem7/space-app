@@ -7,14 +7,15 @@ const Rockets = () => {
   return (
     <div>
       {rockets.map(({
-        id, rocketName, description, image,
+        id, rocketName, description, image, reserved,
       }) => (
         <Rocket
+          reserved={reserved}
           id={id}
           key={id}
           rocketName={rocketName}
           description={description}
-          image={image[0]}
+          image={image}
         />
       ))}
     </div>

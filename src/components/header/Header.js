@@ -20,7 +20,7 @@ const Header = () => {
       </ul>
       <ul className="header">
         <li>
-          <NavLink style={linkStyle} to="/rockets">
+          <NavLink style={linkStyle} to="/">
             Rockets
           </NavLink>
         </li>
@@ -32,7 +32,7 @@ const Header = () => {
         </li>
         <li>|</li>
         <li>
-          <NavLink style={linkStyle} to="/">
+          <NavLink style={linkStyle} to="/profile">
             My profile
           </NavLink>
         </li>

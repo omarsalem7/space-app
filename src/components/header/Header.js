@@ -7,8 +7,8 @@ const Header = () => {
   const linkStyle = {
     margin: '1rem',
     textDecoration: 'none',
-    color: 'rgb(85, 85, 85)',
     fontSize: '0.9rem',
+    color: 'rgb(24, 159, 250)',
   };
   return (
     <div className="header-container">
@@ -20,13 +20,20 @@ const Header = () => {
       </ul>
       <ul className="header">
         <li>
-          <NavLink style={linkStyle} to="/">
-            BOOKS
+          <NavLink style={linkStyle} to="/rockets">
+            Rockets
           </NavLink>
         </li>
+
         <li>
-          <NavLink style={linkStyle} to="/categories">
-            CATEGORIES
+          <NavLink style={linkStyle} to="/missions">
+            Missions
+          </NavLink>
+        </li>
+        <li>|</li>
+        <li>
+          <NavLink style={linkStyle} to="/">
+            My profile
           </NavLink>
         </li>
       </ul>

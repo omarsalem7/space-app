@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React js Template
+# React Template
 This is a template for creating React js web application quicklyby using gitflow also, it is contain some the following dependacies installed:
 - `linters (Eslint, CSS/ SCSS)`
 - `react-router-dom v6.2.2`

@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Dragon renders correctly 1`] = `
+<div
+  className="rocket"
+>
+  <div
+    className="rocket-img-container"
+  >
+    <img
+      alt="Rocket"
+      className="rocket-img"
+      src="https://test.com"
+    />
+  </div>
+  <div
+    className="rocket-detail"
+  >
+    <h5>
+      Rocket
+    </h5>
+    <p>
+      description
+    </p>
+    <button
+      className="btn btn-primary btn-sm"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Reserve Rocket
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Test Dragons renders correctly 1`] = `<div />`;
+
+exports[`Test Missions renders correctly 1`] = `
+<section
+  className="missionSectionContainer"
+>
+  <li
+    className="missionGridContainer"
+  >
+    <div
+      className="headerText headerTextTopGridBlackBorder"
+    >
+      MISSIONS
+    </div>
+    <div
+      className="headerText headerTextTopGridBlackBorder"
+    >
+      DESCRIPTION
+    </div>
+    <div
+      className="headerText headerTextTopGridBlackBorder"
+    >
+      STATUS
+    </div>
+    <div
+      className="headerText headerTextTopGridBlackBorder"
+    />
+  </li>
+</section>
+`;
+
+exports[`Test Rocket renders correctly 1`] = `
+<div
+  className="rocket"
+>
+  <div
+    className="rocket-img-container"
+  >
+    <img
+      alt="Rocket"
+      className="rocket-img"
+      src="https://test.com"
+    />
+  </div>
+  <div
+    className="rocket-detail"
+  >
+    <h5>
+      Rocket
+    </h5>
+    <p>
+      description
+    </p>
+    <button
+      className="btn btn-primary btn-sm"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Reserve Rocket
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Test Rocket renders correctly 2`] = `
+<div
+  className="rocket"
+>
+  <div
+    className="rocket-img-container"
+  >
+    <img
+      alt="Rocket"
+      className="rocket-img"
+      src="https://test.com"
+    />
+  </div>
+  <div
+    className="rocket-detail"
+  >
+    <h5>
+      Rocket
+    </h5>
+    <p>
+      description
+    </p>
+    <button
+      className="btn btn-primary btn-sm"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Reserve Rocket
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Test Rockets List renders correctly 1`] = `<div />`;
+
+exports[`Test Rockets renders correctly 1`] = `<div />`;
+
+exports[`Test Rockets renders correctly 2`] = `<div />`;
+
+exports[`Test header component header renders correctly 1`] = `
+<div
+  className="header-container"
+>
+  <ul
+    className="header"
+  >
+    <li>
+      <img
+        alt="plant logo"
+        className="img-logo"
+        src="planet.png"
+      />
+    </li>
+    <li
+      className="header-item"
+    >
+       Books Store
+    </li>
+  </ul>
+  <ul
+    className="header"
+  >
+    <li>
+      <a
+        aria-current="page"
+        className="active"
+        href="/"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "rgb(24, 159, 250)",
+            "fontSize": "0.9rem",
+            "margin": "1rem",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Rockets
+      </a>
+    </li>
+    <li>
+      <a
+        className=""
+        href="/missions"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "rgb(24, 159, 250)",
+            "fontSize": "0.9rem",
+            "margin": "1rem",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Missions
+      </a>
+    </li>
+    <li>
+      <a
+        className=""
+        href="/dragons"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "rgb(24, 159, 250)",
+            "fontSize": "0.9rem",
+            "margin": "1rem",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Dragons
+      </a>
+    </li>
+    <li>
+      |
+    </li>
+    <li>
+      <a
+        className=""
+        href="/profile"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "rgb(24, 159, 250)",
+            "fontSize": "0.9rem",
+            "margin": "1rem",
+            "textDecoration": "none",
+          }
+        }
+      >
+        My profile
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Test if Missions renders correctly 1`] = `
+<section
+  className="missionSectionContainer"
+>
+  <li
+    className="missionGridContainer"
+  >
+    <div
+      className="headerText headerTextTopGridBlackBorder"
+    >
+      MISSIONS
+    </div>
+    <div
+      className="headerText headerTextTopGridBlackBorder"
+    >
+      DESCRIPTION
+    </div>
+    <div
+      className="headerText headerTextTopGridBlackBorder"
+    >
+      STATUS
+    </div>
+    <div
+      className="headerText headerTextTopGridBlackBorder"
+    />
+  </li>
+</section>
+`;
+
+exports[`Test if Rocket renders correctly 1`] = `
+<div
+  className="rocket"
+>
+  <div
+    className="rocket-img-container"
+  >
+    <img
+      alt="Rocket"
+      className="rocket-img"
+      src="https://test.com"
+    />
+  </div>
+  <div
+    className="rocket-detail"
+  >
+    <h5>
+      Rocket
+    </h5>
+    <p>
+      description
+    </p>
+    <button
+      className="btn btn-primary btn-sm"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Reserve Rocket
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Test if Rockets List renders correctly 1`] = `<div />`;

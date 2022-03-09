@@ -1,0 +1,17 @@
+.missions {
+  padding: 1rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.status,
+.actions {
+  vertical-align: middle;
+}
+
+.actions {
+  width: 15%;
+  text-align: center;
+}

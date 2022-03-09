@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { fetchRocketsDispatch } from './redux/rockets/rockets';
 import { fetchDragonsDispatch } from './redux/dragons/dragons';
+import { fetchMissionsDispatch } from './redux/missions/missions';
 import Header from './components/header/Header';
 import Profile from './components/profile/Profile';
 import Rockets from './components/rockets/Rockets';
@@ -15,6 +16,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchRocketsDispatch());
     dispatch(fetchDragonsDispatch());
+    dispatch(fetchMissionsDispatch());
   }, []);
   return (
     <Router>

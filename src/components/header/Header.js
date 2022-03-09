@@ -30,6 +30,11 @@ const Header = () => {
             Missions
           </NavLink>
         </li>
+        <li>
+          <NavLink style={linkStyle} to="/dragons">
+            Dragons
+          </NavLink>
+        </li>
         <li>|</li>
         <li>
           <NavLink style={linkStyle} to="/profile">

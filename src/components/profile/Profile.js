@@ -4,19 +4,28 @@ import { ListGroup } from 'react-bootstrap/';
 import './profile.css';
 
 const Profile = () => {
-  const reserved = useSelector(({ rocketsReducer }) => rocketsReducer.filter((ro) => ro.reserved));
+  const Rockets = useSelector(({ rocketsReducer }) => rocketsReducer.filter((ro) => ro.reserved));
+  const dragons = useSelector(({ dragonsReducer }) => dragonsReducer.filter((dr) => dr.reserved));
+  console.log(dragons);
   return (
     <div className="profile">
-      <div className="missions">
+      <div className="group">
         <ListGroup>
           <ListGroup.Item>fake data</ListGroup.Item>
           <ListGroup.Item>fake data</ListGroup.Item>
         </ListGroup>
       </div>
-      <div className="rockets">
+      <div className="group">
         <ListGroup>
-          {reserved.map((rocket) => (
+          {Rockets.map((rocket) => (
             <ListGroup.Item key={rocket.id}>{rocket.rocketName}</ListGroup.Item>
+          ))}
+        </ListGroup>
+      </div>
+      <div className="group">
+        <ListGroup>
+          {dragons.map((dragon) => (
+            <ListGroup.Item key={dragon.id}>{dragon.dragonName}</ListGroup.Item>
           ))}
         </ListGroup>
       </div>

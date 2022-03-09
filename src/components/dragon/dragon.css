@@ -1,0 +1,24 @@
+.dragon {
+  display: flex;
+  margin: 1.5%;
+}
+
+.dragon-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dragon-img {
+  height: 8.5rem;
+  margin: auto;
+  width: 10.5rem;
+  margin-right: 1.5rem;
+}
+
+.dragon-detail {
+  width: 80%;
+}
+
+.dragon-detail h5 {
+  margin: 0;
+}

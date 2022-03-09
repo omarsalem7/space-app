@@ -34,7 +34,7 @@ start by cloning the repository.
 
 cd to the folder.
 
-`cd rocket-space-missions`
+`cd space-app`
 
 install all the dependencies.
 

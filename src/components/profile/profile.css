@@ -1,0 +1,10 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10vh;
+}
+
+.group {
+  width: 25%;
+}

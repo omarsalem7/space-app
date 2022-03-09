@@ -1,21 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React js Template
-This is a template for creating React js web application quicklyby using gitflow also, it is contain some the following dependacies installed:
-- `linters (Eslint, CSS/ SCSS)`
-- `react-router-dom v6.2.2`
-- `prop-types v15.8.1`
+# rocket space missions
+
+> Rockets
+
+The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking.
+
+> Missions
+
+The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.
+
+> Dragons
+
+The dragons section displays a list of all available SpaceX dragons. Users can book each rocket by clicking the reservation button or cancel the previously made booking.
+
+> My Profile
+
+The My Profile section displays all reserved rockets, space missions and dragons.
+
+![screenshot](./screenshot.gif)
+
+## Built With
+
+- ReactJS
+- Redux
+- react-bootstrap
 
 ## Getting Started
 
-After Click in `Use this template` follow these instructions:
-```
-npm install
-npm start
-```
+start by cloning the repository.
 
-If you need to install redux just write this command: `npm i redux react-redux --save`
+`git clone https://github.com/omarsalem7/space-app.git`
 
+cd to the folder.
+
+`cd space-app`
+
+install all the dependencies.
+
+`npm install`
+
+run the live server
+
+`npm run start`
+
+go to [http://localhost:3000](http://localhost:3000)
+
+build the distribution folder before hosting the app
+
+`npm run build`
+
+after the build you can host the `build` folder.
 
 ## Authors
 
@@ -25,6 +60,13 @@ If you need to install redux just write this command: `npm i redux react-redux -
 - Twitter: [Omar Salem](https://twitter.com/Omar80491499)
 - LinkedIn: [Omar Salem](https://www.linkedin.com/in/omar-salem-a6945b177/)
 
+👤 **Josphat Nkonde**
+
+- GitHub: [@zairdon20](https://github.com/zairdon20)
+- Twitter: [@Josphat1](https://twitter.com/Josphat1)
+- LinkedIn: [@Josphat Nkonde](https://www.linkedin.com/in/josphat-nkonde-092510183/)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -33,4 +75,4 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!!!!

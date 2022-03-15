@@ -20,11 +20,14 @@ The My Profile section displays all reserved rockets, space missions and dragons
 
 ![screenshot](./screenshot.gif)
 
+## Live Demo
+[Nelify demo](https://space-app-v1.netlify.app/)
 ## Built With
 
 - ReactJS
 - Redux
 - react-bootstrap
+
 
 ## Getting Started
 

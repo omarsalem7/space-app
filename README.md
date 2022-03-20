@@ -24,6 +24,18 @@ The My Profile section displays all reserved rockets, space missions and dragons
 [Nelify demo](https://space-app-v1.netlify.app/)
 ## Built With
 
+- Technologies used 
+  
+  ``` bash
+  - React 
+  - Redux
+  - CSS
+  - Linters
+  - Jest
+  - React testing library
+  - Git version control
+  ```
+
 - ReactJS
 - Redux
 - react-bootstrap
